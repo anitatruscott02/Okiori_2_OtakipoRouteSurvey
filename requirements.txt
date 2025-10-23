@@ -1,29 +1,15 @@
-
-# Core Streamlit Application Framework
-streamlit
-
-# Geospatial Data Processing and Geometry
-geopandas  # Was used in earlier versions, good practice to keep for GIS data handling
+# requirements.txt
+# Geospatial/Core
+numpy
+pandas
 shapely
-shapefile  # pyshp (Used for reading/writing shapefiles)
+geopandas
+shapefile
 
-# Network Analysis (Used in initial inland routing)
+# Network/App
 networkx
-
-# Mapping and Visualization
+streamlit
 folium
 branca
 streamlit-folium
-
-# Utilities, Math, and File Handling
-numpy  # Implied dependency for raster/spatial data
-pandas   # Implied dependency for geopandas/data tables
-math
-os
-io
-zipfile
-tempfile
-requests # For fetching external data/tiles (e.g., in Folium)
-json
-random
-
+requests
