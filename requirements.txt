@@ -1,8 +1,4 @@
-I see. You want a list of all the Python libraries mentioned in the code snippets and import statements from our conversation, formatted for a standard `requirements.txt` file.
 
-Here is the list of required packages:
-
-```txt
 # Core Streamlit Application Framework
 streamlit
 
