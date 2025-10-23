@@ -1,15 +1,9 @@
-# requirements.txt
-# Geospatial/Core
-numpy
-pandas
-shapely
-geopandas
-shapefile
-
-# Network/App
-networkx
-streamlit
-folium
-branca
-streamlit-folium
-requests
+streamlit==1.39.0
+folium==0.17.0
+streamlit-folium==0.21.0
+numpy==2.3.4
+pandas==2.3.3
+shapely==2.1.2
+pyshp==2.3.1           # <- correct name for "shapefile"
+networkx==3.4.2
+requests==2.32.3
