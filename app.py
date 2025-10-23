@@ -1,4 +1,4 @@
-this works beautifully well please just also include just a routing to pass on sea too you get shey please and labels of each creek and name at every turning should come up to as well, a point and name of river or creek send the updated python code ----# app_okiori_otakipo_streamlit.py 
+# app_okiori_otakipo_streamlit.py
 """
 Streamlit app: HydroRIVERS-based route survey for Okiori -> Otakipo
 - Upload HydroRIVERS (zipped shapefile) or paste URL
