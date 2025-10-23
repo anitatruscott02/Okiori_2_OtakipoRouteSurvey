@@ -1,4 +1,1 @@
-libspatialindex-dev
-gdal
-libgdal-dev
-geos
+
