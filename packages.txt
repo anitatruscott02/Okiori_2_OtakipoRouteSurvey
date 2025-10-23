@@ -1,0 +1,5 @@
+# packages.txt - System dependencies for GEOS and GDAL
+libspatialindex-dev
+gdal
+libgdal-dev
+geos
