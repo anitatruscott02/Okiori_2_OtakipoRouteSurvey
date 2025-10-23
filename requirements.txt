@@ -1,0 +1,33 @@
+I see. You want a list of all the Python libraries mentioned in the code snippets and import statements from our conversation, formatted for a standard `requirements.txt` file.
+
+Here is the list of required packages:
+
+```txt
+# Core Streamlit Application Framework
+streamlit
+
+# Geospatial Data Processing and Geometry
+geopandas  # Was used in earlier versions, good practice to keep for GIS data handling
+shapely
+shapefile  # pyshp (Used for reading/writing shapefiles)
+
+# Network Analysis (Used in initial inland routing)
+networkx
+
+# Mapping and Visualization
+folium
+branca
+streamlit-folium
+
+# Utilities, Math, and File Handling
+numpy  # Implied dependency for raster/spatial data
+pandas   # Implied dependency for geopandas/data tables
+math
+os
+io
+zipfile
+tempfile
+requests # For fetching external data/tiles (e.g., in Folium)
+json
+random
+```
